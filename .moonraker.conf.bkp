@@ -84,6 +84,11 @@ path = ~/moonraker-timelapse
 origin = https://github.com/mainsail-crew/moonraker-timelapse.git
 managed_services = klipper moonraker
 
+[timelapse]
+output_path = ~/timelapse/
+frame_path = /tmp/timelapse/
+ffmpeg_binary_path = /usr/bin/ffmpeg
+
 [update_manager print_area_bed_mesh]
 type = git_repo
 path = ~/print_area_bed_mesh
